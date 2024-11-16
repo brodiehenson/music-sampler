@@ -1,0 +1,82 @@
+body {
+    font-family: Geist, Calibri, sans-serif;
+    margin: 0;
+    background-color: #fff;
+    color: #000;
+}
+
+h1 {
+    font-family: "DM Serif Text", "Times New Roman", serif;
+    text-align: center;
+    font-size: 2rem;
+    background-color: #d5e6f5;
+    padding: 20px;
+    margin: auto;
+}
+
+#madonna2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+article {
+    max-width: 620px;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+#caption {
+    text-align: center;
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+.album-cover {
+    max-width: 150px;
+    border-style: solid;
+    border-width: thin;
+    border-color: #dcdcdc;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.play-song {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.25rem;
+}
+
+#mainText {
+    background-color: #d5e6f5;
+    padding: 20px;
+}
+
+footer {
+    font-size: 1.2rem;
+    text-align: center;
+    background-color: #dcdcdc;
+    padding: 20px;
+    margin-top: 10px;
+    
+}
+
+@media screen and (max-width: 700px) {
+    article {
+        text-align: center;
+        margin: 1rem;
+    }
+    h1 {
+        text-align: center;
+        padding: 1rem;
+    }
+    img {
+        max-width: 350px;
+    }
+}
